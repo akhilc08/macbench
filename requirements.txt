@@ -1,0 +1,14 @@
+# Benchmark build, privacy scan, scoring, review page
+numpy
+pillow
+# Collection on a sandbox Mac (macOS only): AX tree, screenshots, Apple Vision OCR / face scan
+pyobjc-framework-Quartz
+pyobjc-framework-ApplicationServices
+pyobjc-framework-Vision
+# Screenshot-model evaluation and fine-tuning (GPU box); versions used for the paper
+torch==2.8.0
+torchvision==0.23.0
+transformers==5.22.1
+accelerate==1.15.0
+peft
+qwen-vl-utils==0.0.14
