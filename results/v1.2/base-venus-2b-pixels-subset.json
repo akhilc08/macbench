@@ -1,0 +1,28 @@
+{
+ "track": "pixels",
+ "commands": 4342,
+ "with_prediction": 4342,
+ "accuracy": {
+  "all": 82.0,
+  "ax": 90.1,
+  "ocr": 66.1,
+  "icon": 85.6,
+  "menu": null,
+  "none": 37.6,
+  "ambiguous": 76.8,
+  "irreversible": 91.3
+ },
+ "n": {
+  "all": 4342,
+  "ax": 3028,
+  "ocr": 295,
+  "icon": 529,
+  "menu": 0,
+  "none": 490,
+  "ambiguous": 185,
+  "irreversible": 23
+ },
+ "false_abstain": 1.8,
+ "error_at_conf_0.9": null,
+ "n_conf_0.9": 0
+}
