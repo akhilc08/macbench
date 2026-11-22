@@ -36,7 +36,7 @@ Every command in a track counts; a missing prediction counts as wrong.
 | `scripts/eval/` | Baselines: screenshot models (UI-Venus, Qwen3-VL, ...) and Jev |
 | `scripts/train/` | Option lists for list-picking models; LoRA fine-tuning of screenshot models on the training split |
 | `src/rlca/` | AX tree, screen capture, OCR and option-list helpers used by the collector and builders |
-| `results/v1.1/` | Scores behind the paper's Table 2 (`macbench_score.py --json` output) and the screenshot-model subset ids |
+| `results/v1.1/`, `results/v1.2/` | Scores for each release (v1.2 is the paper's Table 2) (`macbench_score.py --json` output) and the screenshot-model subset ids |
 
 The raw screens, the training split and model outputs are not in this repository (`data/` and `runs/` are ignored).
 
